@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: gainsboro;
+}
+.menu{
+    width: 1181px;
+    height: 96px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.logo{
+    
+    display: inline-block; 
+    height: 62px;
+    width: 337px;
+    background-image: url(m1.png);  
+    margin-top: 15px; 
+    margin-left: 50px;
+}
+.menu ul{
+    float: right;
+    padding-right: 90px;
+
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    position: relative;
+    height: 96px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    display: block;
+    margin-top: 30px;
+}
+.menu ul li:hover{
+    background-color: #f64646;
+}
+.menu ul li a:hover{
+    color: white;
+}
