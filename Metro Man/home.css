@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: cadetblue;
+}
+.menu_top{
+    width: 1200px;
+    height: 30px;
+    background-color: rgb(235, 235, 235);
+    margin: auto;
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+}
+.links ul{
+    padding: 5px 60px;
+    float: left;
+}
+.links ul li a{
+    text-decoration: none;
+    color: grey;
+    padding: 3px 3px;
+}
+.links ul li a i{
+    color: #52b9e9;
+}
+
+
+.social ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social ul li a i{
+    width: 20px;
+}
+.social ul{
+    padding: 5px 60px;
+    float: right;
+}
+.social a .fa-facebook-sqare{
+    color: blue;
+}
+.social .fa-google-plus-square{
+    color: orange;
+}
+.social .fa-twitter-square{
+    color: #00acee;
+}
+.social .fa-linkedin-square{
+    color: purple;
+}
+.social .fa-pinterest-square{
+    color: red;
+}
+.social .fa-rss-square{
+    color: orange;
+}
+
+.menu_bottom{
+    width: 1200px;
+    height: 110px;
+    background-color: white;
+    margin: auto;
+}
+.logo{
+    width: 250px;
+    height: 68px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 60px;
+}
+.logo a{
+    background-image: url(metrologo.png);
+    width: 250px;
+    height: 68px;
+    display: inline-block;
+}
+.menu
+{
+    height: 80px;
+    width: 600px;
+    float: right;
+    padding-top: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.menu ul{
+    float: right;
+    padding-right: 60px;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    padding-right: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: block;
+}
+.menu ul li .home{
+    padding: 20px 20px;
+    background-color: #52b9e9;
+    width: 40px;
+    height: 40px;
+    color: white;  
+    text-align: center; 
+}
+.menu ul li .about{
+    padding: 20px 20px;
+    background-color: #fa3031;
+    width: 40px;
+    height: 40px;
+    color: white;  
+    text-align: center; 
+}
+.menu ul li .page{
+    padding: 20px 20px;
+    background-color: #932ab6;
+    width: 40px;
+    height: 40px;
+    color: white;  
+    text-align: center; 
+}
+.menu ul li .blog{
+    padding: 20px 20px;
+    background-color: #43c83c;
+    width: 40px;
+    height: 40px;
+    color: white;  
+    text-align: center; 
+}
+.menu ul li .pf{
+    padding: 20px 20px;
+    background-color: #f88529;
+    width: 40px;
+    height: 40px;
+    color: white;  
+    text-align: center; 
+}
+.menu ul li .contact{
+    padding: 20px 20px;
+    background-color: #1171a3;
+    width: 40px;
+    height: 40px;
+    color: white;  
+    text-align: center; 
+}
